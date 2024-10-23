@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/mdrivas/Portfolio-/static/css/main.98e3d6a3.css",
-    "main.js": "/mdrivas/Portfolio-/static/js/main.4ced0415.js",
-    "static/js/453.ace21015.chunk.js": "/mdrivas/Portfolio-/static/js/453.ace21015.chunk.js",
-    "static/media/brace.png": "/mdrivas/Portfolio-/static/media/brace.e0db566a6c2eca26ff44.png",
-    "static/media/PPE.png": "/mdrivas/Portfolio-/static/media/PPE.ff7ecac225c09fa4c7b9.png",
-    "static/media/research.png": "/mdrivas/Portfolio-/static/media/research.79de4a772994760231eb.png",
-    "static/media/speakeasy.png": "/mdrivas/Portfolio-/static/media/speakeasy.6ebbbc98d6069aa18c5e.png",
-    "static/media/Avatar.jpg": "/mdrivas/Portfolio-/static/media/Avatar.0a5c57f38600f3766055.jpg",
-    "static/media/MattheosDrivasResume.pdf": "/mdrivas/Portfolio-/static/media/MattheosDrivasResume.08d4559c804875a540b2.pdf",
-    "static/media/home-main.svg": "/mdrivas/Portfolio-/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
-    "static/media/about.png": "/mdrivas/Portfolio-/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/home-bg.jpg": "/mdrivas/Portfolio-/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/pre.svg": "/mdrivas/Portfolio-/static/media/pre.d4812f51c8c80976eaab.svg",
-    "index.html": "/mdrivas/Portfolio-/index.html",
-    "main.98e3d6a3.css.map": "/mdrivas/Portfolio-/static/css/main.98e3d6a3.css.map",
-    "main.4ced0415.js.map": "/mdrivas/Portfolio-/static/js/main.4ced0415.js.map",
-    "453.ace21015.chunk.js.map": "/mdrivas/Portfolio-/static/js/453.ace21015.chunk.js.map"
+    "main.css": "/Portfolio-/static/css/main.d85ad51f.css",
+    "main.js": "/Portfolio-/static/js/main.48bd2f61.js",
+    "static/js/453.ace21015.chunk.js": "/Portfolio-/static/js/453.ace21015.chunk.js",
+    "static/media/brace.png": "/Portfolio-/static/media/brace.e0db566a6c2eca26ff44.png",
+    "static/media/PPE.png": "/Portfolio-/static/media/PPE.ff7ecac225c09fa4c7b9.png",
+    "static/media/research.png": "/Portfolio-/static/media/research.79de4a772994760231eb.png",
+    "static/media/speakeasy.png": "/Portfolio-/static/media/speakeasy.6ebbbc98d6069aa18c5e.png",
+    "static/media/Avatar.jpg": "/Portfolio-/static/media/Avatar.0a5c57f38600f3766055.jpg",
+    "static/media/MattheosDrivasResume.pdf": "/Portfolio-/static/media/MattheosDrivasResume.08d4559c804875a540b2.pdf",
+    "static/media/home-main.svg": "/Portfolio-/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/Portfolio-/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/Portfolio-/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/Portfolio-/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/Portfolio-/index.html",
+    "main.d85ad51f.css.map": "/Portfolio-/static/css/main.d85ad51f.css.map",
+    "main.48bd2f61.js.map": "/Portfolio-/static/js/main.48bd2f61.js.map",
+    "453.ace21015.chunk.js.map": "/Portfolio-/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98e3d6a3.css",
-    "static/js/main.4ced0415.js"
+    "static/css/main.d85ad51f.css",
+    "static/js/main.48bd2f61.js"
   ]
 }
