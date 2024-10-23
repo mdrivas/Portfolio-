@@ -1,8 +1,10 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import { BiNews } from "react-icons/bi";
+import { MdLiveTv } from "react-icons/md";
+import { FaSearch } from "react-icons/fa";
 
 function ProjectCards(props) {
   return (
@@ -13,24 +15,47 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
-
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
-        {!props.isBlog && props.demoLink && (
+        {props.ghLink && (
+          <Button 
+            variant="primary" 
+            href={props.ghLink} 
+            target="_blank"
+            style={{ marginRight: "10px" }}
+          >
+            <FaGithub /> &nbsp;
+            {"GitHub"}
+          </Button>
+        )}
+        {props.newsLink && (
+          <Button 
+            variant="primary" 
+            href={props.newsLink} 
+            target="_blank"
+            style={{ marginRight: "10px" }}
+          >
+            <BiNews /> &nbsp;
+            {"News Article"}
+          </Button>
+        )}
+        {props.demoLink && (
           <Button
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
+            style={{ marginRight: "10px" }}
           >
-            <CgWebsite /> &nbsp;
+            <MdLiveTv /> &nbsp;
             {"Demo"}
+          </Button>
+        )}
+        {props.researchLink && (
+          <Button
+            variant="primary"
+            href={props.researchLink}
+            target="_blank"
+          >
+            <FaSearch /> &nbsp;
+            {"Our Research"}
           </Button>
         )}
       </Card.Body>

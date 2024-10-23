@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import speakeasy from "../../Assets/Projects/speakeasy.png";
+import braille from "../../Assets/Projects/research.png";
+import ankleBrace from "../../Assets/Projects/brace.png";
+import ppe from "../../Assets/Projects/PPE.png";
 
 function Projects() {
   return (
@@ -23,68 +21,42 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={speakeasy}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Speakeasy"
+              description="Built a full stack language learning app using React, Flask, Firebase, and WebRTC for real-time communication. Integrated Firebase Authentication and RESTful APIs for secure, scalable user management. Designed responsive UI/UX with React hooks, improving state management and engagement."
+              ghLink="https://github.com/LearnSpeakeasy/speakeasy"
+              demoLink="https://speakeasy-c3d76.web.app/home"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={braille}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Braille Display for STEM Education"
+              description="Collaborated with a team of 8 on a cost-effective Braille display to enhance STEM education for the visually impaired. Developed a Google Chrome extension that converts images to an 8x8 binary form for use on the Braille device. Implemented image processing techniques for accurate shape representation on the tactile display."
+              researchLink="https://etezad-lab.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={ankleBrace}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Custom 3D-Printed Ankle Brace"
+              description="Led a team of 4 in prototyping and designing a customizable multi-material 3D-printed ankle brace. Presented the project as an invited speaker for Science on Tap, a public engagement event, to an audience of 40. Conducted material strength testing on 3D-printed composite materials using Instron Machine."
+              newsLink="https://blogs.chapman.edu/gci/2023/05/09/creating-a-customizable-multi-material-3d-printed-ankle-brace/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={ppe}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Medical Protective Equipment Design and Distribution"
+              description="Designed, manufactured, and distributed 900+ units of medical PPE including face shields, intubation boxes, and face mask clips to frontline healthcare workers in California, New York, and Washington State. Raised $3,000 on GoFundMe to support production and distribution costs."
+              newsLink="https://news.chapman.edu/2020/04/13/3d-printers-whir-to-life-producing-face-shields-for-medical-workers/"
             />
           </Col>
         </Row>

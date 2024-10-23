@@ -22,6 +22,14 @@ button:focus {
   box-shadow: none !important;
 }
 
+.rounded-image {
+  width: 200px;  /* Adjust this value to make it smaller or larger */
+  height: 200px; /* Keep this the same as the width to ensure it's circular */
+  object-fit: cover; /* This ensures the image fills the circle without stretching */
+  border-radius: 50%; /* This makes it perfectly circular */
+  border: 8px solid #623686; /* Optional: adds a border. Adjust color as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
 /* --------- */
 /*  Preloader */
 /* --------- */
@@ -740,4 +748,11 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.profile-photo-wrapper {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow: hidden;
 }
