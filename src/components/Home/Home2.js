@@ -35,7 +35,7 @@ function Home2() {
               , as well as using data science to improve medical outcomes.
               <br />
               <br />
-              Beyond tech, I'm an avid language learner, conversational in 6 languages while currently exploring
+              Beyond tech, I'm an avid language learner, conversational in 5 languages while currently exploring
               <i>
                 <b className="purple"> Portuguese and Cantonese</b>
               </i>
