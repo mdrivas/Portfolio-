@@ -19,7 +19,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Outdoor spoorts like Skiing and Volleyball
+              <ImPointRight /> Outdoor sports like Skiing and Volleyball
             </li>
             <li className="about-activity">
               <ImPointRight /> Learning Languages
