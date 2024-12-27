@@ -6,6 +6,7 @@ import speakeasy from "../../Assets/Projects/speakeasy.png";
 import braille from "../../Assets/Projects/research.png";
 import ankleBrace from "../../Assets/Projects/brace.png";
 import ppe from "../../Assets/Projects/PPE.png";
+import barkle from "../../Assets/Projects/barkle.png";
 
 function Projects() {
   return (
@@ -21,12 +22,22 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={barkle}
+              isBlog={false}
+              title="Barkle - Daily Dog Breed Game"
+              description="Developed a Wordle-inspired daily dog breed guessing game using Next.js, tRPC, and TypeScript. Features include user authentication, daily challenges, leaderboards, and community-submitted content. Implemented SEO optimization and Google Analytics, growing the player base to over 300 users."
+              demoLink="https://barkle.vercel.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={speakeasy}
               isBlog={false}
               title="Speakeasy"
               description="Built a full stack language learning app using React, Flask, Firebase, and WebRTC for real-time communication. Integrated Firebase Authentication and RESTful APIs for secure, scalable user management. Designed responsive UI/UX with React hooks, improving state management and engagement."
               ghLink="https://github.com/LearnSpeakeasy/speakeasy"
-              demoLink="https://speakeasy-c3d76.web.app/home"
+              demoLink="https://learnspeakeasy.com"
             />
           </Col>
 
