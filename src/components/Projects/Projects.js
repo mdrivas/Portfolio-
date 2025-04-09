@@ -7,6 +7,7 @@ import braille from "../../Assets/Projects/research.png";
 import ankleBrace from "../../Assets/Projects/brace.png";
 import ppe from "../../Assets/Projects/PPE.png";
 import barkle from "../../Assets/Projects/barkle.png";
+import providerCoach from "../../Assets/Projects/providercoach.png";
 
 function Projects() {
   return (
@@ -20,6 +21,8 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={barkle}
@@ -38,6 +41,16 @@ function Projects() {
               description="Built a full stack language learning app using React, Flask, Firebase, and WebRTC for real-time communication. Integrated Firebase Authentication and RESTful APIs for secure, scalable user management. Designed responsive UI/UX with React hooks, improving state management and engagement."
               ghLink="https://github.com/LearnSpeakeasy/speakeasy"
               demoLink="https://learnspeakeasy.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={providerCoach}
+              isBlog={false}
+              title="The Provider's Coach Project"
+              description="Contracted to develop a Next.js web application for healthcare providers offering no-cost coaching services. Implemented Calendly integration for seamless appointment scheduling, responsive design, and SEO optimization. Built with TypeScript, Tailwind CSS, and deployed on Vercel for optimal performance and reliability."
+              demoLink="https://providerscoachproject.vercel.app/"
             />
           </Col>
 
