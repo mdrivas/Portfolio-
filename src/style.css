@@ -755,4 +755,15 @@ button:focus {
   height: 350px;
   border-radius: 50%;
   overflow: hidden;
+  position: relative;
+}
+
+.profile-photo {
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+  object-position: center -100px;
+  position: absolute;
+  top: -50px;
+  left: 0%;
 }
